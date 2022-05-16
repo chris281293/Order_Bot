@@ -1,0 +1,426 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "comment",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "order",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "adj",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "count",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "food",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "今天想吃兩個豬排飯",
+      "intent": "order",
+      "entities": [
+        {
+          "entity": "count",
+          "startPos": 4,
+          "endPos": 5,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 6,
+          "endPos": 8,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "兩分薯餅",
+      "intent": "order",
+      "entities": [
+        {
+          "entity": "count",
+          "startPos": 0,
+          "endPos": 1,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "可樂放太久已經沒氣了",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 1,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 7,
+          "endPos": 9,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "我想要一個冰淇淋",
+      "intent": "order",
+      "entities": [
+        {
+          "entity": "count",
+          "startPos": 3,
+          "endPos": 4,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 5,
+          "endPos": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "我要吃漢堡",
+      "intent": "order",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 3,
+          "endPos": 4,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "服務態度親切和善",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "adj",
+          "startPos": 4,
+          "endPos": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "東西難吃",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "adj",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "沒有漲價前的雞腿排骨比較好吃 漲價後雞腿排骨縮水了不好吃 昨天買了排骨飯是冷的非常的失望",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 6,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 10,
+          "endPos": 13,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 18,
+          "endPos": 21,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 22,
+          "endPos": 24,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 25,
+          "endPos": 27,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 33,
+          "endPos": 35,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 36,
+          "endPos": 38,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "漢堡裡面有蟲",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "漢堡雞巴難吃",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 1,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 2,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "牛奶臭酸",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 1,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "牛肉麵有夠油",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 2,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 3,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "環境乾淨，食物好吃",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "adj",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 5,
+          "endPos": 6,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 7,
+          "endPos": 8,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "空調壞掉",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "adj",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "糖和香料",
+      "intent": "order",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 0,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "菜都黃掉",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 0,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "薯條好油",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 0,
+          "endPos": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "買了多次，最近感覺配菜有慢慢比較好了，不然以前常常打開便當看到都是玉米，感覺很差。",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 9,
+          "endPos": 10,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 14,
+          "endPos": 17,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 33,
+          "endPos": 34,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 38,
+          "endPos": 39,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "這裡的漢堡真的有夠難吃",
+      "intent": "comment",
+      "entities": [
+        {
+          "entity": "food",
+          "startPos": 3,
+          "endPos": 4,
+          "children": []
+        },
+        {
+          "entity": "adj",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "需要一包薯條",
+      "intent": "order",
+      "entities": [
+        {
+          "entity": "count",
+          "startPos": 2,
+          "endPos": 3,
+          "children": []
+        },
+        {
+          "entity": "food",
+          "startPos": 4,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "versionId": "0.1",
+  "name": "test",
+  "desc": "",
+  "culture": "zh-cn",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
